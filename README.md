@@ -1,6 +1,6 @@
 # Proyecto Frontend con React y Vite
 
-Este es un proyecto frontend desarrollado con React, Vite, TypeScript, Tailwind CSS y React Icons. Utiliza estas tecnologías modernas para crear una aplicación web rápida y con una interfaz atractiva.
+Este es un proyecto frontend desarrollado con React, Vite, TypeScript, Tailwind CSS y React Icons. Utiliza estas tecnologías modernas para crear una aplicación web rápida y con una interfaz atractiva, cuya finalidad es proporcionar una interfaz que permita gestionar las tareas del usuario.
 
 ## Requisitos previos
 
@@ -46,14 +46,6 @@ Este proyecto utiliza Tailwind CSS para estilizar la interfaz. Puedes personaliz
 
 Iconos
 Para agregar iconos a la aplicación, se utiliza la librería React Icons. Puedes encontrar una lista de iconos disponibles en su documentación y agregarlos fácilmente a tus componentes.
-
-Contribución
-Si deseas contribuir a este proyecto, eres bienvenido/a. Siempre estamos abiertos a nuevas ideas, correcciones de errores y mejoras. Por favor, sigue las directrices de contribución en el archivo CONTRIBUTING.md.
-
-Licencia
-Este proyecto está bajo la Licencia MIT. Puedes ver los detalles en el archivo LICENSE.
-
-¡Gracias por tu interés en nuestro proyecto! Si tienes alguna pregunta o sugerencia, no dudes en abrir un issue o contactar al equipo de desarrollo.
 
 Happy coding! 😄🚀
 
