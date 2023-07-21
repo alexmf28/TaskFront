@@ -16,28 +16,29 @@ Antes de empezar, asegúrate de tener instalados los siguientes requisitos en tu
 ```bash
 git clone <url-del-repositorio>
 cd tasksfront
-
+```
 Instala las dependencias del proyecto utilizando npm o yarn:
+```bash
 npm install
 # o
 yarn install
-
+```
 Ejecución en modo desarrollo
 Para ejecutar la aplicación en modo desarrollo, utiliza el siguiente comando:
-
+```bash
 npm run dev
 # o
 yarn dev
-
+```
 Esto iniciará el servidor de desarrollo de Vite y podrás acceder a la aplicación en http://localhost:3000.
 
 Compilación y construcción
 Si deseas crear una versión optimizada y lista para producción de la aplicación, puedes utilizar el siguiente comando:
-
+```bash
 npm run build
 # o
 yarn build
-
+```
 Los archivos generados se ubicarán en la carpeta dist/.
 
 Personalización
