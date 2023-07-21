@@ -24,7 +24,7 @@ npm install
 ```bash
 yarn install
 ```
-3. Ejecución en modo desarrollo
+# Ejecución en modo desarrollo
 Para ejecutar la aplicación en modo desarrollo, utiliza el siguiente comando:
 ```bash
 npm run dev
@@ -34,7 +34,7 @@ yarn dev
 ```
 Esto iniciará el servidor de desarrollo de Vite y podrás acceder a la aplicación.
 
-4. Compilación y construcción
+# Compilación y construcción
 Si deseas crear una versión optimizada y lista para producción de la aplicación, puedes utilizar el siguiente comando:
 ```bash
 npm run build
@@ -44,10 +44,10 @@ yarn build
 ```
 Los archivos generados se ubicarán en la carpeta dist/.
 
-Personalización
+# Personalización
 Este proyecto utiliza Tailwind CSS para estilizar la interfaz. Puedes personalizar los estilos modificando los archivos en la carpeta src/styles/.
 
-Iconos
+# Iconos
 Para agregar iconos a la aplicación, se utiliza la librería React Icons. Puedes encontrar una lista de iconos disponibles en su documentación y agregarlos fácilmente a tus componentes.
 
 😄🚀
