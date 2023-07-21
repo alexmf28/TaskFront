@@ -32,7 +32,7 @@ npm run dev
 ```bash
 yarn dev
 ```
-Esto iniciará el servidor de desarrollo de Vite y podrás acceder a la aplicación en http://localhost:3000.
+Esto iniciará el servidor de desarrollo de Vite y podrás acceder a la aplicación.
 
 4. Compilación y construcción
 Si deseas crear una versión optimizada y lista para producción de la aplicación, puedes utilizar el siguiente comando:
