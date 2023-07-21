@@ -7,7 +7,7 @@ Este es un proyecto frontend desarrollado con React, Vite, TypeScript, Tailwind 
 Antes de empezar, asegúrate de tener instalados los siguientes requisitos en tu máquina:
 
 - Node.js (versión 12 o superior)
-- npm o yarn (se recomienda utilizar yarn para una mejor experiencia)
+- npm o yarn 
 
 ## Instalación
 
@@ -17,31 +17,28 @@ Antes de empezar, asegúrate de tener instalados los siguientes requisitos en tu
 git clone <url-del-repositorio>
 cd tasksfront
 ```
-Instala las dependencias del proyecto utilizando npm o yarn:
+2. Instala las dependencias del proyecto utilizando npm o yarn:
 ```bash
 npm install
 ```
-# o
 ```bash
 yarn install
 ```
-Ejecución en modo desarrollo
+3. Ejecución en modo desarrollo
 Para ejecutar la aplicación en modo desarrollo, utiliza el siguiente comando:
 ```bash
 npm run dev
 ```
-# o
 ```bash
 yarn dev
 ```
 Esto iniciará el servidor de desarrollo de Vite y podrás acceder a la aplicación en http://localhost:3000.
 
-Compilación y construcción
+4. Compilación y construcción
 Si deseas crear una versión optimizada y lista para producción de la aplicación, puedes utilizar el siguiente comando:
 ```bash
 npm run build
 ```
-# o
 ```bash
 yarn build
 ```
@@ -53,5 +50,5 @@ Este proyecto utiliza Tailwind CSS para estilizar la interfaz. Puedes personaliz
 Iconos
 Para agregar iconos a la aplicación, se utiliza la librería React Icons. Puedes encontrar una lista de iconos disponibles en su documentación y agregarlos fácilmente a tus componentes.
 
-Happy coding! 😄🚀
+😄🚀
 
