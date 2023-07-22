@@ -1,5 +1,5 @@
 import { createTask, updateTask } from '../interfaces/task.interface';
-const API_URL = 'http://localhost:3000/api'
+const API_URL = 'https://taskback-732p.onrender.com/api'
 
 export const createTaskRequest = (task:createTask) => 
     fetch( `${API_URL}/tasks`, {
