@@ -26,14 +26,14 @@ function TaskForm() {
           className="border border-gray-700 p-2 bg-zinc-800 w-full block rounded-lg my-2"
           type="text"
           name="title"
-          placeholder="Write a title"
+          placeholder="Agrega un titulo"
           onChange={handleChange}
         />
         <textarea
           className="border border-gray-700 p-2 bg-zinc-800 w-full block rounded-lg my-2"
           name="description"
           rows={3}
-          placeholder="Write a description"
+          placeholder="Agrega una descripción"
           onChange={handleChange}
         ></textarea>
         <label className="inline-flex items-center gap-x-2">
@@ -42,9 +42,9 @@ function TaskForm() {
             className="h-5 w-5 text-indigo-600"
             onChange={(e) => setTask({ ...task, done: !task.done })}
           />
-          <span>Done</span>
+          <span>Terminado</span>
         </label>
-        <button className="bg-indigo-500 px-3 block py-2 w-full">Save</button>
+        <button className="bg-indigo-500 px-3 block py-2 w-full">Guardar</button>
       </form>
     </div>
   );
