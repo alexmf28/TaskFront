@@ -22,7 +22,7 @@ interface props {
 
 export const TaskProvider: React.FC<props> = ({ children }) => {
   const [tasks, setTasks] = useState<Task[]>([]);
-
+  
   useEffect(() => {
     getTasksRequest()
       .then((response) => response.json())

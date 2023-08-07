@@ -9,6 +9,7 @@ interface Props {
 function TaskItem({ task }: Props) {
   const { deleteTask, updateTask } = useTasks();
 
+  const dateTask = task.createdAt?.toString().split("T")[0];
   return (
     <div
       key={task._id}
@@ -17,6 +18,7 @@ function TaskItem({ task }: Props) {
       <div>
         <h1>{task.title}</h1>
         <p>{task.description}</p>
+        <p>{dateTask}</p>
       </div>
       <div className="flex gap-2 ">
         {task.done ? (
